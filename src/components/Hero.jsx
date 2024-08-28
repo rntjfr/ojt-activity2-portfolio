@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
     return (
-        <section className="h-screen flex flex-col justify-center items-center">
+        <section className="p-20 h-screen flex flex-col justify-center items-center">
             <br />
             <br />
 
