@@ -2,15 +2,27 @@ import React from 'react';
 
 export default function Hero() {
     return (
-        <section className="p-20 h-screen flex flex-col justify-center items-center">
-            <br />
-            <br />
+        <section className="p-20 h-screen flex flex-col items-center">
 
-            <h1 className="text-5xl font-bold text-center">Hello, I'm Rexdan N. Tautho</h1>
-            <p className="mt-4 text-2xl text-center">A Junior Software Engineer</p>
-            <a href="#about" className="mt-8 px-6 py-3 bg-white bg-opacity-15 backdrop-blur-sm p-5 rounded-lg text-white font-semibold rounded-full">
-                Learn More
-            </a>
+            <div className="py-2 -ml-60 relative z-10 text-xl font-bold text-left whitespace-nowrap"><h2>Rexdan Tautho</h2></div>
+
+            <div className="flex relative">
+                <div className="w-110 h-170 border-4 border-white bg-transparent relative z-0">
+                    <div className="w-60 h-120 bg-white"></div>
+                </div>
+
+                <div className="py-20 px-20 -ml-90 relative z-10">
+                    <h1 className="text-7xl font-aileron text-white font-bold">Career</h1>
+                    <h1 className="text-7xl font-aileron text-white font-bold">Portfolio.</h1>
+                    <h2 className="text-2xl font-bold text-left whitespace-nowrap">Information Technology Specialist</h2>
+                    <h2 className="text-5xl font-bold text-left whitespace-nowrap px-20 -mt-9">______________</h2>
+
+                </div>
+            </div>
+            <div className="py-2 -ml-80 relative z-10 text-xl font-bold text-left whitespace-nowrap"><h3>2020 - 2024</h3></div>
+
+
+
         </section>
     );
 }
