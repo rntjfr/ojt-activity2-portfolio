@@ -6,9 +6,9 @@ export default function Hero() {
             <br />
             <br />
 
-            <h1 className="text-5xl font-bold">Hello, I'm [Your Name]</h1>
-            <p className="mt-4 text-2xl">A [Your Profession]</p>
-            <a href="#about" className="mt-8 px-6 py-3 bg-white text-indigo-600 font-semibold rounded-full">
+            <h1 className="text-5xl font-bold">Hello, I'm Rexdan N. Tautho</h1>
+            <p className="mt-4 text-2xl">A Junior Software Engineer</p>
+            <a href="#about" className="mt-8 px-6 py-3 bg-white bg-opacity-15 backdrop-blur-sm p-5 rounded-lg text-white font-semibold rounded-full">
                 Learn More
             </a>
         </section>
