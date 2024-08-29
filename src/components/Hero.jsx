@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="p-20 h-screen flex flex-col items-center">
+    <section className="h-screen flex flex-col items-center">
       {/* <div className="py-2 -ml-60 relative z-10 text-xl font-bold text-left whitespace-nowrap">
         <h2>Rexdan Tautho</h2>
       </div> */}

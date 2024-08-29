@@ -1,13 +1,42 @@
-import React from 'react';
+import React from "react";
+import smallCert1 from "./assets/cert-databases.jpg";
+import smallCert2 from "./assets/cert-html.jpg";
+import smallCert3 from "./assets/cert-java.jpg";
+import smallCert4 from "./assets/cert-networking.jpg";
+import smallCert5 from "./assets/cert-ns.jpg";
+import largeCert from "./assets/ncii.jpg";
 
-export default function Certifications() {
+const Certifications = () => {
     return (
-        <section id="certification" className="p-20 h-screen">
+        <section id="certifications" className="">
+            <div className="container mx-auto px-4">
+                <h2 className="text-4xl font-bold mb-12 text-center">Certifications</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                    {/* Smaller Certificates */}
+                    <div className="flex justify-center items-center">
+                        <img src={smallCert1} alt="Certificate 1" className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                    </div>
+                    <div className="flex justify-center items-center">
+                        <img src={smallCert2} alt="Certificate 2" className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                    </div>
+                    <div className="flex justify-center items-center">
+                        <img src={smallCert3} alt="Certificate 3" className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                    </div>
+                    <div className="flex justify-center items-center">
+                        <img src={smallCert4} alt="Certificate 4" className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                    </div>
+                    <div className="flex justify-center items-center">
+                        <img src={smallCert5} alt="Certificate 5" className="w-full h-auto object-contain rounded-lg shadow-lg" />
+                    </div>
+                </div>
 
-            <h2 className="text-4xl font-bold text-center">Certifications</h2>
-            <p className="mt-4 text-lg text-center">
-                You can reach me at <a href="mailto:youremail@example.com" className="underline">youremail@example.com</a>
-            </p>
+                {/* Larger Certificate */}
+                <div className="flex justify-center">
+                    <img src={largeCert} alt="Large Certificate" className="w-full max-w-4xl h-auto object-contain rounded-lg shadow-lg" />
+                </div>
+            </div>
         </section>
     );
-}
+};
+
+export default Certifications;

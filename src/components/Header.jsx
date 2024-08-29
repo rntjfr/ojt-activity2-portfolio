@@ -17,7 +17,7 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="#certification" className="hover:underline">
+            <a href="#certifications" className="hover:underline">
               Certifications
             </a>
           </li>
