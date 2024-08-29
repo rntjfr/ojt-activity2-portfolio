@@ -20,6 +20,10 @@ export default function Hero() {
             <h1 className="text-7xl font-aileron text-white font-bold">
               Portfolio.
             </h1>
+
+            <h2 className="text-2xl font-bold text-left whitespace-nowrap">
+              Junior Software Engineer
+            </h2>
             <h2 className="text-2xl font-bold text-left whitespace-nowrap">
               Information Technology Specialist
             </h2>
