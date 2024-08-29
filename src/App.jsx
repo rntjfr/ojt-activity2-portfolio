@@ -14,9 +14,11 @@ function App() {
         <section id="hero" className="py-10">
           <Hero />
         </section>
+        <section className="-mt-90 py-10"></section>
         <section id="about" className="py-10">
           <About />
         </section>
+        <section className="-mt-20"></section>
         <section id="projects" className="py-10">
           <Projects />
         </section>
