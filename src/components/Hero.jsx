@@ -8,7 +8,7 @@ export default function Hero() {
       </div> */}
 
       <div className="flex relative">
-        <div className="w-110 h-170 border-4 border-white bg-transparent relative z-0">
+        <div className="w-80 h-100 border-4 border-white bg-transparent relative z-0">
           <div className="w-60 h-120 bg-white"></div>
         </div>
 
