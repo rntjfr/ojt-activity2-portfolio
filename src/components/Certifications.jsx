@@ -8,31 +8,80 @@ import largeCert from "./assets/ncii.jpg";
 
 const Certifications = () => {
     return (
-        <section id="certifications" className="">
+        <section id="certifications" className="bg-gray-950">
             <div className="container mx-auto px-4">
-                <h2 className="text-4xl font-bold mb-12 text-center">Certifications</h2>
+                <h2 className="text-4xl font-bold mb-12 text-center text-white">Certifications</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
                     {/* Smaller Certificates */}
-                    <div className="flex justify-center items-center">
-                        <img src={smallCert1} alt="Certificate 1" className="w-full h-auto object-contain rounded-lg shadow-lg" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <img src={smallCert2} alt="Certificate 2" className="w-full h-auto object-contain rounded-lg shadow-lg" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <img src={smallCert3} alt="Certificate 3" className="w-full h-auto object-contain rounded-lg shadow-lg" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <img src={smallCert4} alt="Certificate 4" className="w-full h-auto object-contain rounded-lg shadow-lg" />
-                    </div>
-                    <div className="flex justify-center items-center">
-                        <img src={smallCert5} alt="Certificate 5" className="w-full h-auto object-contain rounded-lg shadow-lg" />
-                    </div>
+                    <a
+                        href="https://example.com/cert-databases"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex justify-center items-center"
+                    >
+                        <img
+                            src={smallCert1}
+                            alt="Certificate 1"
+                            className="w-full h-auto object-contain rounded-lg shadow-lg"
+                        />
+                    </a>
+                    <a
+                        href="https://example.com/cert-html"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex justify-center items-center"
+                    >
+                        <img
+                            src={smallCert2}
+                            alt="Certificate 2"
+                            className="w-full h-auto object-contain rounded-lg shadow-lg"
+                        />
+                    </a>
+                    <a
+                        href="https://example.com/cert-java"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex justify-center items-center"
+                    >
+                        <img
+                            src={smallCert3}
+                            alt="Certificate 3"
+                            className="w-full h-auto object-contain rounded-lg shadow-lg"
+                        />
+                    </a>
+                    <a
+                        href="https://example.com/cert-networking"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex justify-center items-center"
+                    >
+                        <img
+                            src={smallCert4}
+                            alt="Certificate 4"
+                            className="w-full h-auto object-contain rounded-lg shadow-lg"
+                        />
+                    </a>
+                    <a
+                        href="https://example.com/cert-ns"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex justify-center items-center"
+                    >
+                        <img
+                            src={smallCert5}
+                            alt="Certificate 5"
+                            className="w-full h-auto object-contain rounded-lg shadow-lg"
+                        />
+                    </a>
                 </div>
 
                 {/* Larger Certificate */}
                 <div className="flex justify-center">
-                    <img src={largeCert} alt="Large Certificate" className="w-full max-w-4xl h-auto object-contain rounded-lg shadow-lg" />
+                    <img
+                        src={largeCert}
+                        alt="Large Certificate"
+                        className="w-full max-w-2xl h-auto object-contain rounded-lg shadow-lg"
+                    />
                 </div>
             </div>
         </section>
